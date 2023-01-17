@@ -64,7 +64,7 @@ int main()
     vector<vector<int>>arr(row,vector<int>(col));
     inputArray(arr,row,col);
     printArray(arr,row,col);
-    cout<<"enter the column to be sort in the range ["<<row<<","<<col<<"]"<<endl;
+    cout<<"enter the column to be sort in the range"<<endl;
     int sortCol;
     cin>>sortCol;
     sortArray(arr,sortCol-1);
